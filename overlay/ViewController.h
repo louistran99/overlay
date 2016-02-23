@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class OverlayView;
 @interface ViewController : UIViewController
 
+@property (nonatomic) IBOutlet OverlayView *overlay;
 
 @end
 

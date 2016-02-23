@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "OverlayView.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CGRect rect = CGRectMake(160, 160, 100, 100);
+    NSArray *rectangles = [NSArray arrayWithObject:[NSValue valueWithCGRect:rect]];
+    [_overlay setRectangles:rectangles];
+    
 }
 
 - (void)didReceiveMemoryWarning {

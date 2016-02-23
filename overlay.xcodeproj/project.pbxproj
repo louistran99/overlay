@@ -15,6 +15,9 @@
 		D05655AC1C7C84870057810E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05655AA1C7C84870057810E /* LaunchScreen.storyboard */; };
 		D05655B71C7C84870057810E /* overlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05655B61C7C84870057810E /* overlayTests.m */; };
 		D05655C21C7C84880057810E /* overlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05655C11C7C84880057810E /* overlayUITests.m */; };
+		D05655D11C7C84C70057810E /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D05655D01C7C84C70057810E /* OverlayView.m */; };
+		D05655D41C7C85820057810E /* PostletColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D05655D31C7C85820057810E /* PostletColorUtils.m */; };
+		D05655D71C7C85C30057810E /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D05655D61C7C85C30057810E /* ColorUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		D05655BD1C7C84880057810E /* overlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = overlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05655C11C7C84880057810E /* overlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = overlayUITests.m; sourceTree = "<group>"; };
 		D05655C31C7C84880057810E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05655CF1C7C84C70057810E /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		D05655D01C7C84C70057810E /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		D05655D21C7C85820057810E /* PostletColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostletColorUtils.h; sourceTree = "<group>"; };
+		D05655D31C7C85820057810E /* PostletColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostletColorUtils.m; sourceTree = "<group>"; };
+		D05655D51C7C85C30057810E /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
+		D05655D61C7C85C30057810E /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,8 @@
 				D05655A01C7C84870057810E /* AppDelegate.m */,
 				D05655A21C7C84870057810E /* ViewController.h */,
 				D05655A31C7C84870057810E /* ViewController.m */,
+				D05655CF1C7C84C70057810E /* OverlayView.h */,
+				D05655D01C7C84C70057810E /* OverlayView.m */,
 				D05655A51C7C84870057810E /* Main.storyboard */,
 				D05655A81C7C84870057810E /* Assets.xcassets */,
 				D05655AA1C7C84870057810E /* LaunchScreen.storyboard */,
@@ -117,6 +128,10 @@
 		D056559C1C7C84870057810E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D05655D51C7C85C30057810E /* ColorUtils.h */,
+				D05655D61C7C85C30057810E /* ColorUtils.m */,
+				D05655D21C7C85820057810E /* PostletColorUtils.h */,
+				D05655D31C7C85820057810E /* PostletColorUtils.m */,
 				D056559D1C7C84870057810E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -271,7 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D05655A41C7C84870057810E /* ViewController.m in Sources */,
+				D05655D11C7C84C70057810E /* OverlayView.m in Sources */,
 				D05655A11C7C84870057810E /* AppDelegate.m in Sources */,
+				D05655D71C7C85C30057810E /* ColorUtils.m in Sources */,
+				D05655D41C7C85820057810E /* PostletColorUtils.m in Sources */,
 				D056559E1C7C84870057810E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
