@@ -22,6 +22,7 @@
     CGRect rect = CGRectMake(160, 160, 100, 100);
     NSArray *rectangles = [NSArray arrayWithObject:[NSValue valueWithCGRect:rect]];
     [_overlay setRectangles:rectangles];
+    [_overlay setDashLine:YES];
     
 }
 
