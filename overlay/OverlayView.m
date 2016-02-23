@@ -96,6 +96,7 @@
             CGFloat radius = rect.size.width/2.0f;
             CGContextMoveToPoint(context, center.x, center.y);
             CGContextAddArc(context, center.x, center.y, radius, 0, M_PI*2, 0);   // using the non-zero winding rule to punch out a hole here...
+            // Subba, draw your own rounded rectangle path here
             CGContextClosePath(context);
         }];
     }
